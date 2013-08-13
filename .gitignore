@@ -18,6 +18,10 @@ develop-eggs
 lib
 lib64
 
+# Installer generated folders
+env
+static_collected
+
 # Installer logs
 pip-log.txt
 
@@ -33,3 +37,4 @@ nosetests.xml
 .mr.developer.cfg
 .project
 .pydevproject
+.settings

@@ -1,0 +1,22 @@
+{% extends "report/pdf/base_pdf.html" %}
+{% load i18n %}
+
+{% block content %}
+    <div class="query_form">
+    {% block query_form %}
+    	{% for f in form.display_fields %}
+    		<p>{% trans f.label %}{{ form.label_suffix }} {{ f.value|default:"-" }}</p>
+    	{% endfor %}
+    	<br/>
+    {% endblock %}
+    </div>
+    <div class="table_list">
+    {% block table_list %}
+	    <table>
+		    {{ view.table_header }}
+		    {{ view.table_data }}
+		    {{ view.table_footer }}
+	    </table>
+	{% endblock %}
+	</div>
+{% endblock %}

@@ -1,0 +1,64 @@
+{% load admin_static i18n %}<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>{% block title %}{{ view.title }}{% endblock %}</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    {% block stylesheet %}
+    <style>
+		@page {
+		    size: {{ view.page_size|default:"A4 portrait" }};
+		    margin-top: {{ view.margin_top|default:"4cm"}};
+		    margin-left: {{ view.margin_left|default:"2cm"}};
+		    margin-right: {{ view.margin_right|default:"2cm"}};
+		    margin-bottom: {{ view.margin_bottom|default:"4cm"}};
+		    font-family: "Helvetica, Arial, sans-serif";
+		    font-size: 2em;
+		    @frame header {
+		        -pdf-frame-content: header;
+		        top: 1cm;
+		        margin-left: {{ view.margin_left|default:"2cm"}};
+		        margin-right: {{ view.margin_right|default:"2cm"}};
+		    }
+		    @frame footer {
+		        -pdf-frame-content: footer;
+		        bottom: 1cm;
+		        margin-left: {{ view.margin_left|default:"2cm"}};
+		        margin-right: {{ view.margin_right|default:"2cm"}};
+		        height: 1cm;
+		    }
+		}
+	</style>
+    <link rel="stylesheet" type="text/css" href="{% static "report/css/base_pdf.css" %}" />    
+    {% endblock %}
+    {% block extra_head %}{% endblock %}
+</head>
+<body class="{% block bodyclass %}pdf{% endblock %}">
+<div id="container">
+    <div id="header">
+    	<div id="page_header">
+        {% block page_header %}
+        	<h1>{% trans "SAAL - Legislative Administration Support System" %}</h1>
+        {% endblock %}
+        </div>
+        <div id="page_title">
+        {% block page_title %}
+        	{% if view.title %}<h2>{{ view.title }}</h2>{% endif %}
+        {% endblock %}
+        </div>
+    </div>
+
+    <div id="content">
+        {% block content_title %}{% endblock %}
+        {% block content %}
+        {{ content }}
+        {% endblock %}
+        <br class="clear" />
+    </div>
+    {% block footer %}
+    <div id="footer">
+    	{% trans "Page" %} <pdf:pagenumber>
+    </div>
+    {% endblock %}
+</div>
+</body>
+</html>

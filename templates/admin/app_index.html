@@ -1,0 +1,47 @@
+{% extends "admin/index.html" %}
+{% load i18n admin_static saal_filters tree_menu_tags tree_menu_tags_extend saal_tags %}
+{% load url from future %}
+
+{% block extrastyle %}
+	{{ block.super }}
+	<link rel="stylesheet" type="text/css" href="{% static "css/appdashboard.css" %}" />
+{% endblock %}
+
+{% if not is_popup %}
+	{% block breadcrumbs %}
+		<div class="breadcrumbs">
+			<a href="{% url 'admin:index' %}">{% trans 'Home' %}</a>
+			&rsaquo;
+			{% for app in app_list %}
+				{% blocktrans with app.name as name %}{{ name }}{% endblocktrans %}
+			{% endfor %}
+		</div>
+	{% endblock %}
+{% endif %}
+
+{% block content_subtitle %}
+{% for app in app_list %} {# Has only one app, but in a list #}
+	<a href="{{ app.app_url }}">
+		<img src="{% static "images/appicon/" %}{{ app.name|lower }}.png" class="app-icon"/>
+	</a>
+	<h2>{% trans app.name %} - {% trans app.name|app_title|safe %}</h2>
+	<p>{% trans app.name|app_brief|safe %}</p>
+{% endfor %}
+{% endblock %}
+
+{% block content %}
+
+<div id="content-main">
+{% for app in app_list %}
+	{% if not app.name|lower|menu_exists %}
+		{% include 'admin/app_index_snippet.html' %}
+	{% endif %}
+	{% if app.name|lower|stringformat:"s/dashboard.html"|template_exists %}
+		{% include app.name|lower|stringformat:"s/dashboard.html" %}
+	{% endif %}
+{% endfor %}
+</div>
+{% endblock %}
+
+{% block sidebar %}
+{% endblock %}

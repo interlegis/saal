@@ -1,0 +1,48 @@
+@CHARSET "UTF-8";
+
+.app-icon {
+	float: left;
+    margin: 0.6em 1em 0 0.6em;
+    width: 65px;
+    height: 65px;
+}
+
+.app-brief {
+	min-height: 3em;
+}
+
+.enter_link {
+	margin: 0 0.4em;
+	text-align: right;
+}
+
+th {
+	width: 100%;
+}
+
+.dashboard #content {
+    width: auto;
+}
+
+.module {
+    float: left;
+    margin-right: 0.6em;
+    width: 48%;
+}
+
+.module_content {
+	margin: 0;
+	padding: 0;
+	height: 18em;
+}
+
+.app-topics {
+  clear: left;
+  margin-left: 3em !important;
+  margin-top: 2em;
+}
+
+#recent-actions-module {
+	min-width: auto !important;
+	width: 100% !important;
+}

@@ -1,0 +1,18 @@
+@CHARSET "UTF-8";
+
+.module {
+	text-align: center;
+	min-height: 25em;
+	width: 30%;
+}
+#content-main {
+  clear: left;
+  float: left;
+  width: 85%;
+}
+
+#content-related {
+  margin-left: -21em;
+  margin-right: -19em;
+  width: 40em;
+}

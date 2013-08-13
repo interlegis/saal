@@ -1,0 +1,52 @@
+{% extends "report/pdf/tabular_list.html" %}
+{% load i18n %}
+
+{% block table_list %}
+	{% if view.object_list %}
+	<table>
+        <tr>
+            <th rowspan="2" style="vertical-align: bottom;">Item code</th>
+            <th rowspan="2" style="vertical-align: bottom;">Description</th>
+            <th rowspan="2" style="vertical-align: bottom;">measure Unit</th>
+            <th colspan="4" style="text-align: center;">Physical stock</th>
+            <th colspan="4" style="text-align: center;">Financial stock</th>
+        </tr>
+        <tr>
+            <th style="text-align:right;">Stock before</th><th style="text-align:right;">Inputs</th><th style="text-align:right;">Outputs</th><th style="text-align:right;">Stock after</th>
+            <th style="text-align:right;">Stock before</th><th style="text-align:right;">Inputs</th><th style="text-align:right;">Outputs</th><th style="text-align:right;">Stock after</th>
+        </tr>
+        {% for m in view.object_list %}
+        <tr>
+        {% if m.group_description %}
+        	<th colspan="7">{{ m.group_description }}</th>
+        	<th style="text-align:right;">{{ m.group_total.before }}</th>
+        	<th style="text-align:right;">{{ m.group_total.input }}</th>
+        	<th style="text-align:right;">{{ m.group_total.output }}</th>
+        	<th style="text-align:right;">{{ m.group_total.after }}</th>
+        {% else %}
+        	<td>{{ m.item_code }}</td>
+        	<td>{{ m.description }}</td>
+        	<td>{{ m.measure_unit }}</td>
+        	<td style="text-align:right;">{{ m.physical.before }}</td>
+        	<td style="text-align:right;">{{ m.physical.input }}</td>
+        	<td style="text-align:right;">{{ m.physical.output }}</td>
+        	<td style="text-align:right;">{{ m.physical.after }}</td>
+        	<td style="text-align:right;">{{ m.financial.before }}</td>
+        	<td style="text-align:right;">{{ m.financial.input }}</td>
+        	<td style="text-align:right;">{{ m.financial.output }}</td>
+        	<td style="text-align:right;">{{ m.financial.after }}</td>
+        {% endif %}
+        </tr>
+        {% endfor %}
+        <tr>
+        	<th colspan="7">{% trans "Final inventory" %}</th>
+        	<th style="text-align:right;">{{ view.total.before }}</th>
+        	<th style="text-align:right;">{{ view.total.input }}</th>
+        	<th style="text-align:right;">{{ view.total.output }}</th>
+        	<th style="text-align:right;">{{ view.total.after }}</th>
+	    </tr>
+	</table>
+	{% else %}
+	    <h3>{% trans "No data to show" %}</h3>
+	{% endif %}
+{% endblock %}

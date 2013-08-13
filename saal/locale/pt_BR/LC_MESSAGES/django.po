@@ -1,0 +1,361 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-07-15 17:36-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: __init__.py:25
+msgid ""
+"\n"
+"<h3>SAAL base System</h3>\n"
+"<p>Base tables for system SAAL.</p>\n"
+"<ul>\n"
+"    <li>Political organization (states & cities)</li> \n"
+"    <li>Organizational structure</li>\n"
+"    <li>Supplier base table</li>\n"
+"</ul>\n"
+msgstr ""
+"\n"
+"<h3>SAAL - Sistema básico</h3>\n"
+"<p>Tabelas básicas para o sistema SAAL.</p>\n"
+"<ul>\n"
+"    <li>Organização Política (estados & cidades)</li> \n"
+"    <li>Estrutura Organizacional</li>\n"
+"    <li>Tabela básica de fornecedores</li>\n"
+"</ul>\n"
+
+#: __init__.py:35
+msgid "SAAL base System"
+msgstr "SAAL - Sistema básico"
+
+#: __init__.py:36
+msgid "Base tables for system SAAL."
+msgstr "Tabelas básicas para o sistema SAAL."
+
+#: __init__.py:37
+msgid "Political organization (states & cities)"
+msgstr "Organização Política (estados & cidades)"
+
+#: __init__.py:38
+msgid "Organizational structure"
+msgstr "Estrutura Organizacional"
+
+#: __init__.py:39
+msgid "Supplier base table"
+msgstr "Tabela básica de fornecedores"
+
+#: admin.py:36 admin.py:46 admin.py:61
+msgid "Basic info"
+msgstr "Informação básica"
+
+#: admin.py:37
+msgid "Complementary info"
+msgstr "Informação complementar"
+
+#: admin.py:38
+msgid "Geographic coordinates"
+msgstr "Coordenadas geográficas"
+
+#: admin.py:47
+msgid "Address"
+msgstr "Endereço"
+
+#: admin.py:48
+msgid "Contact"
+msgstr "Contato"
+
+#: admin.py:62
+msgid "Address information"
+msgstr "Informação de endereço"
+
+#: models.py:32 models.py:58
+msgid "IBGE code"
+msgstr "Código IBGE"
+
+#: models.py:35
+msgid "State code by IBGE - Brazilian Geographic & Statistical Intitute"
+msgstr ""
+"Código de Estado pelo IBGE - Instituto Brasileiro de Geografia e Estatística"
+
+#: models.py:37
+msgid "State name"
+msgstr "Nome do Estado"
+
+#: models.py:39 models.py:111 models.py:175
+msgid "Sign"
+msgstr "Sigla"
+
+#: models.py:42
+msgid "Example: <em>MG</em>."
+msgstr "Exemplo: <em>MG</em>"
+
+#: models.py:44
+msgid "population"
+msgstr "população"
+
+#: models.py:48
+msgid "Federative Unit"
+msgstr "Unidade da Federação"
+
+#: models.py:49
+msgid "Federative Units"
+msgstr "Unidades da Federação"
+
+#: models.py:61
+msgid "City code by IBGE - Brazilian Geographic & Statistical Institute"
+msgstr ""
+"Código do município pelo IBGE - Instituto Brasileiro de Geografia e "
+"Estatística"
+
+#: models.py:66
+msgid "TSE code"
+msgstr "Código TSE"
+
+#: models.py:69
+msgid "City Code by TSE - Superior Electoral Court"
+msgstr "Código do município pelo TSE - Superior Tribunal Eleitoral"
+
+#: models.py:71
+msgid "City name"
+msgstr "Nome do município"
+
+#: models.py:72
+msgid "State"
+msgstr "Estado"
+
+#: models.py:73
+msgid "Capital"
+msgstr "Capital"
+
+#: models.py:74
+msgid "Population"
+msgstr "População"
+
+#: models.py:75
+msgid "Hub"
+msgstr "Pólo"
+
+#: models.py:76
+msgid "City creation date"
+msgstr "Data de criação do município"
+
+#: models.py:79
+msgid "Latitude"
+msgstr "Latitude"
+
+#: models.py:84
+msgid "Example: <em>-20.464</em>."
+msgstr "Exemplo: <em>-20.464</em>."
+
+#: models.py:86
+msgid "Longitude"
+msgstr "Longitude"
+
+#: models.py:91
+msgid "Example: <em>-45.426</em>."
+msgstr "Exemplo: <em>-45.426</em>."
+
+#: models.py:96 models.py:141 models.py:204
+msgid "City"
+msgstr "Município"
+
+#: models.py:97
+msgid "Cities"
+msgstr "Municípios"
+
+#: models.py:112 models.py:124 models.py:174 models.py:226
+msgid "Name"
+msgstr "Nome"
+
+#: models.py:115
+msgid "Legislative house type"
+msgstr "Tipo de Casa Legislativa"
+
+#: models.py:116
+msgid "Legislative house types"
+msgstr "Tipos de Casa Legislativa"
+
+#: models.py:126
+msgid "Example: <em>City Council of Springfield</em>."
+msgstr "Exemplo: <em>Câmara Municipal de São João</em>."
+
+#: models.py:129
+msgid "Type"
+msgstr "Tipo"
+
+#: models.py:130
+msgid "CNPJ"
+msgstr "CNPJ"
+
+#: models.py:131
+msgid "Registration of Legal Entities"
+msgstr "Registro nos órgãos oficiais"
+
+#: models.py:132
+msgid "observations"
+msgstr "observações"
+
+#: models.py:133
+msgid "Quantity of parliamentarians"
+msgstr "Quantidade de parlamentares"
+
+#: models.py:136 models.py:199
+msgid "Street"
+msgstr "Logradouro"
+
+#: models.py:138 models.py:201
+msgid "Avenue, street, lane, alley, square..."
+msgstr "Avenida, rua, alameda, travessa, beco, praça..."
+
+#: models.py:140 models.py:203
+msgid "Neighborhood"
+msgstr "Bairro"
+
+#: models.py:142 models.py:205
+msgid "Zip code"
+msgstr "CEP"
+
+#: models.py:143 models.py:176 models.py:206 models.py:230
+msgid "Phone number"
+msgstr "Número do telefone"
+
+#: models.py:144 models.py:177 models.py:207
+msgid "Fax number"
+msgstr "Número do FAX"
+
+#: models.py:145 models.py:208 models.py:232
+msgid "E-mail"
+msgstr "E-mail"
+
+#: models.py:146 models.py:209
+msgid "Web page"
+msgstr "Página web"
+
+#: models.py:147 models.py:210
+msgid "Example: <em>http://www.camarapains.mg.gov.br</em>."
+msgstr "Exemplo: <em>http://www.camarapains.mg.leg.br</em>."
+
+#: models.py:151
+msgid "Install date"
+msgstr "Data de instalação"
+
+#: models.py:156 models.py:172 models.py:236
+msgid "Legislative house"
+msgstr "Casa Legislativa"
+
+#: models.py:157
+msgid "Legislative houses"
+msgstr "Casas Legislativas"
+
+#: models.py:173
+msgid "Account code"
+msgstr "Código contábil"
+
+#: models.py:178
+msgid "e-mail"
+msgstr "e-mail"
+
+#: models.py:179
+msgid "Parent Organizational Unit"
+msgstr "Unidade Organizacional superior"
+
+#: models.py:185 models.py:237
+msgid "Organizational unit"
+msgstr "Unidade organizacional"
+
+#: models.py:186
+msgid "Organizational units"
+msgstr "Unidades organizacionais"
+
+#: models.py:192
+msgid "Corporate name"
+msgstr "Razão Social"
+
+#: models.py:193
+msgid "Invented name"
+msgstr "Nome de Fantasia"
+
+#: models.py:194
+msgid "CPF or CNPJ"
+msgstr "CPF ou CNPJ"
+
+#: models.py:195
+msgid "State registry"
+msgstr "Inscrição Estadual"
+
+#: models.py:196
+msgid "Municipal registry"
+msgstr "Inscrição Municipal"
+
+#: models.py:215
+msgid "Supplier"
+msgstr "Fornecedor"
+
+#: models.py:216
+msgid "Suppliers"
+msgstr "Fornecedores"
+
+#: models.py:227
+msgid "Disabled"
+msgstr "Inativo"
+
+#: models.py:231
+msgid "Cellular phone number"
+msgstr "Número do telefone celular"
+
+#: models.py:235
+msgid "Employee registration"
+msgstr "Matrícula do Servidor"
+
+#: models.py:238
+msgid "Job function"
+msgstr "Função ocupacional"
+
+#: models.py:241
+msgid "System user login"
+msgstr "Usuário no sistema"
+
+#: models.py:245
+msgid "Employee"
+msgstr "Servidor"
+
+#: models.py:246
+msgid "Employees"
+msgstr "Servidores"
+
+#: reports.py:231
+#, python-format
+msgid "List of %s"
+msgstr "Lista de %s"
+
+#: reports.py:233
+msgid "Tabular list"
+msgstr "Lista tabular"
+
+#: reports.py:336 reports.py:382
+msgid "End of"
+msgstr "Fim de"
+
+#: templatetags/saal_filters.py:33 templatetags/saal_filters.py:35
+msgid "<h3>Click the title above to access application options</h3>"
+msgstr "<h3>Clique no título acima para acessar opções da aplicação</h3>"
+
+msgid "Location tables"
+msgstr "Tabelas de localidades"
+
+msgid "Base tables"
+msgstr "Tabelas básicas"

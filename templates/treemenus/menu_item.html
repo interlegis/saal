@@ -1,0 +1,19 @@
+{% load i18n %}
+{% load tree_menu_tags %}
+
+{% if menu_item.has_children %}
+	<li>
+	{% if menu_item.url %}
+		<a href="{% url menu_item.named_url %}">{% trans menu_item.caption %}</a>
+	{% else %}
+		{% trans menu_item.caption %}
+	{% endif %}
+		<ul>
+		{% for child in menu_item.children %}
+			{% show_menu_item child %}
+		{% endfor %}
+		</ul>
+	</li>
+{% else %}
+	<li><a href="{% url menu_item.named_url %}">{% trans menu_item.caption %}</a></li>
+{% endif %}

@@ -1,0 +1,16 @@
+NameVirtualHost *:80
+<VirtualHost *:80>
+  ServerName www.saal.leg.br
+
+  WSGIScriptAlias / /var/interlegis/saal/saal/wsgi.py
+  Alias /static /var/interlegis/saal/static_collected/
+
+  ErrorLog /var/log/apache2/saal-error.log
+
+  # Possible values include: debug, info, notice, warn, error, crit,
+  # alert, emerg.
+  LogLevel warn
+
+  CustomLog /var/log/apache2/saal-access.log combined
+  ServerSignature Off
+</VirtualHost>

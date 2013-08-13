@@ -1,0 +1,47 @@
+{% extends "admin/base_site.html" %}
+{% load i18n %}
+
+{% block content_title %}<h2>{{ view.title }}</h2>{% endblock %}
+
+{% block breadcrumbs %}
+<div class="breadcrumbs">
+<a href="{% url 'admin:index' %}">{% trans 'Home' %}</a>
+&rsaquo; <a href="{% url 'admin:app_list' app_label=view.app_label %}">{{ view.app_label|capfirst|escape }}</a>
+&rsaquo; {{ view.title }}
+</div>
+{% endblock %}
+
+{% block content %}
+    <div class="query_form">
+    {% block query_form %}
+		<form action="" method="get">
+			{{ form.as_p }}
+			<input type="submit" value="{% trans 'Submit' %}" />
+		</form>
+    {% endblock %}
+    </div>
+    
+    <div class="table_list">
+    {% block table_list %}
+    	{% if view.object_list %}
+	    <table>
+	    {{ view.table_header }}
+	    {{ view.table_data }}
+	    {{ view.table_footer }}
+	    </table>
+	    {% else %}
+	    <h3>{% trans "No data to show" %}</h3>
+	    {% endif %}
+	{% endblock %}
+    </div>
+    
+    {% block fmt_links %}
+    <div id="print">
+    {% if view.request.META.QUERY_STRING %}
+    	<a href="?{{ view.request.META.QUERY_STRING }}&fmt=PDF">{% trans "View as PDF" %}</a>
+    {% else %}
+    	<a href="?fmt=PDF">{% trans "View as PDF" %}</a>
+    {% endif %}
+    </div>
+    {% endblock %}
+{% endblock %}

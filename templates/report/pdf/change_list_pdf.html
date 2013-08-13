@@ -1,0 +1,29 @@
+{% extends "report/pdf/base_pdf.html" %}
+{% load i18n admin_static admin_list %}
+
+{% block extrastyle %}
+  <style TYPE="text/css">
+  <!-- 
+  @page {
+    size: a4 landscape;
+    margin: 2cm;
+  }  -->
+  </style>
+{% endblock %}
+
+{% block userlinks %}
+{% endblock %}
+
+{% block breadcrumbs %}
+{% endblock %}
+
+{% block messages %}
+{% endblock %}
+
+{% block content %}
+  <div id="content-main">
+  {% block result_list %}
+    {% result_list cl %}
+  {% endblock %}
+  </div>
+{% endblock %}

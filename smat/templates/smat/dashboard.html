@@ -1,0 +1,16 @@
+{% load i18n %}
+
+<div class="module">
+	<h2>{% trans 'Cunsumption by Organizational Units'%}</h2>
+	<img src="{% url 'smat:galYearCostByOU' %}"/>
+</div>
+
+<div class="module">
+	<h2>{% trans 'Stock by category'%}</h2>
+	<img src="{% url 'smat:galStockByCategory' %}" />
+</div>
+
+<div class="module">
+	<h2>{% trans 'Purchases'%}</h2>
+	<img src="{% url 'smat:galYearPurchase' %}"/>
+</div>

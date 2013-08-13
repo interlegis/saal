@@ -1,0 +1,41 @@
+{% extends "admin/base.html" %}
+{% load i18n admin_static tree_menu_tags tree_menu_tags_extend %}
+
+{% block extrastyle %}
+	{{ block.super }}
+	<link rel="stylesheet" type="text/css" href="{% static "css/base_site.css" %}" />
+{% endblock %}
+
+{% block title %}{% trans 'SAAL - Legislative Administration Support System' %}{% endblock %}
+
+{% block branding %}
+<h1 id="site-name">{% trans 'SAAL' %}</h1>
+{% endblock %}
+
+{% block pretitle %}<h1>{% trans 'Legislative Administration Support System' %}</h1>{% endblock %}
+{% block content_title %}{% if title %}<h2>{{ title }}</h2>{% endif %}{% endblock %}
+ 
+{% block nav-global %}
+{% if app_label %}
+	{% if app_label|menu_exists %}
+		<div id="nav-global">
+			{% show_menu app_label "unordered-list" %}
+		</div>
+	{% endif %}
+{% else %}
+	{% for app in app_list %}
+		{% if forloop.first and forloop.last %}
+			{% if app.name|lower|menu_exists %}
+			<div id="nav-global">
+				{% show_menu app.name|lower "unordered-list" %}
+			</div>
+			{% endif %}
+		{% endif %}
+	{% endfor %}
+{% endif %}
+{% endblock %}
+
+{% block footer %}
+<div id="footer">
+</div>
+{% endblock %}

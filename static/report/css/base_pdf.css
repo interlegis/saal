@@ -1,0 +1,49 @@
+div.new_page {
+    page-break-before: always;
+}
+
+div.same_page_ {
+    -pdf-keep-with-next: true;
+}
+
+body {
+    font-family: "Helvetica, Arial, sans-serif";
+    font-size: 1.3em;
+    line-height: 1em;
+}
+
+div#page_header {
+	background-color: #417690;
+	padding: 15px 5px 2px;
+}
+
+#page_header h1 {
+	color: #F4F379;
+	font-size: 1.6em;
+	text-align: left;
+}
+
+div#footer {
+	background-color: #417690;
+	padding: 15px 5px 2px;
+    font-weight: bold;
+    text-align: right;
+}
+
+table {
+    border-collapse: collapse;
+    border-color: #CCCCCC;
+}
+
+td, th {
+	border-bottom: 1px solid #EEEEEE;
+	font-family: "Lucida Grande",Verdana,Arial,sans-serif;
+	font-size: 11px;
+	line-height: 13px;
+	padding: 5px;
+	vertical-align: top;
+}
+
+th {
+	text-align: left;
+}
