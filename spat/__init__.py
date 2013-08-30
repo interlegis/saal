@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 #
-# File: urls.py
+# File: spat.__init__
 #
-# Copyright (c) 2012 by Interlegis
+# Copyright (c) 2013 by Interlegis
 #
 # GNU General Public License (GPL)
 #
@@ -21,23 +21,23 @@
 # Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
 # 02110-1301, USA.
 #
-from django.conf.urls import patterns, include, url
+from django.utils.translation import ugettext as _
+__doc__ = _( 
+u'''
+<h3>Patrimonial System</h3>
+<p>Controls the assets and their movements in Legislative house.</p>
+<ul>
+    <li>Table maintenance</li>
+    <li>Asset registration</li>
+    <li>Insurance policies</li>
+    <li>Transfer, depreciation, changes and writedown registries</li>
+    <li>Inventories and Asset reports</li>
+</ul>
+''')
 
-# Uncomment the next two lines to enable the admin:
-from django.contrib import admin
-admin.autodiscover()
-
-urlpatterns = patterns('',
-    # Examples:
-    # url(r'^$', 'saal.views.home', name='home'),
-    # url(r'^saal/', include('saal.foo.urls')),
-
-    # Uncomment the admin/doc line below to enable admin documentation:
-    # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
-
-    # Uncomment the next line to enable the admin:
-    url(r'^tinymce/', include('tinymce.urls')),
-    url(r'^smat/', include('smat.urls', 'smat')),
-    url(r'^spat/', include('spat.urls', 'spat')),
-    url(r'^saal/', include(admin.site.urls)),
-)
+__title__ = _(u'Patrimonial System')
+__brief__ = _(u'Controls the assets and their movements in Legislative house.')
+__topics__ = (_(u'Table maintenance'),
+              _(u'Asset registration'),
+              _(u'Insurance policies'),
+              _(u'Transfer, depreciation, changes and writedown registries'),)

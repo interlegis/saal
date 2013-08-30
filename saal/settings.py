@@ -28,6 +28,7 @@ PROJECT_DIR = os.path.abspath(os.path.dirname(__file__) + '/..')
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
+ALLOWED_HOSTS = ['*']
 
 ADMINS = (
     # ('Your Name', 'your_email@example.com'),
@@ -48,7 +49,7 @@ LOCALE_PATHS = ( PROJECT_DIR + '/conf/locale', )
 
 # Language code for this installation. All choices can be found here:
 # http://www.i18nguy.com/unicode/language-identifiers.html
-LANGUAGE_CODE = 'pt-br'
+LANGUAGE_CODE = 'pt-BR'
 
 SITE_ID = 1
 
@@ -59,6 +60,9 @@ USE_I18N = True
 # If you set this to False, Django will not format dates, numbers and
 # calendars according to the current locale.
 USE_L10N = True
+
+# If you set this to false, Django will not format number with thousand separators. 
+USE_THOUSAND_SEPARATOR = True
 
 # If you set this to False, Django will not use timezone-aware datetimes.
 USE_TZ = True
@@ -152,10 +156,12 @@ INSTALLED_APPS = (
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
     'django_extensions',
+    'tinymce',
     'south',
     'treemenus',
     'saal',
     'smat',
+    'spat',
 )
 
 # A sample logging configuration. The only tangible logging

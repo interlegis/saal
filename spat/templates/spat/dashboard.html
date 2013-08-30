@@ -1,0 +1,19 @@
+{% load i18n %}
+
+<div class="module">
+	<h2>{% trans 'Composition sheet' %}</h2>
+	<div id="sheet_content">This is the Composition sheet content</div>
+</div>
+
+<div class="module">
+	<h2>{% trans 'Sheet evolution'%}</h2>
+	<img src="{% url 'spat:galsheetevolution' %}" />
+</div>
+
+<script type="text/javascript">
+(function($) {
+    $(document).ready(function($) {
+        $("#sheet_content").load("{% url 'spat:compositionsheetsnippet' %}");
+    });
+})(django.jQuery);
+</script>

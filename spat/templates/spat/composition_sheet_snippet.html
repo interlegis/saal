@@ -1,0 +1,17 @@
+{% load i18n %}
+
+<table>
+	<tr><th>{% trans "Asset class" %}</th><th>{% trans "Assets total value" %}</th><th>{% trans "Total insured value" %}</th></tr>
+	{% for sheet_item in composition_sheet %}
+	<tr>
+		<th>{{ sheet_item.description }}</th>
+		<td>{{ sheet_item.total_asset|default:"-" }}</td>
+		<td>{{ sheet_item.total_insured|default:"-" }}</td>
+	</tr>
+	{% endfor %}
+	<tr>
+		<th>{% trans "Totals" %}</th>
+		<th>{{ sheet_totals.total_asset|default:"-" }}</th>
+		<th>{{ sheet_totals.total_insured|default:"-" }}</th>
+	</tr>
+</table>

@@ -1,0 +1,719 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-08-29 19:01-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: __init__.py:26
+msgid ""
+"\n"
+"<h3>Patrimonial System</h3>\n"
+"<p>Controls the assets and their movements in Legislative house.</p>\n"
+"<ul>\n"
+"    <li>Table maintenance</li>\n"
+"    <li>Asset registration</li>\n"
+"    <li>Insurance policies</li>\n"
+"    <li>Transfer, depreciation, changes and writedown registries</li>\n"
+"    <li>Inventories and Asset reports</li>\n"
+"</ul>\n"
+msgstr ""
+
+#: __init__.py:38
+msgid "Patrimonial System"
+msgstr ""
+
+#: __init__.py:39
+msgid "Controls the assets and their movements in Legislative house."
+msgstr ""
+
+#: __init__.py:40
+msgid "Table maintenance"
+msgstr ""
+
+#: __init__.py:41
+msgid "Asset registration"
+msgstr ""
+
+#: __init__.py:42 models.py:338
+msgid "Insurance policies"
+msgstr ""
+
+#: __init__.py:43
+msgid "Transfer, depreciation, changes and writedown registries"
+msgstr ""
+
+#: admin.py:33
+msgid "Insure policy"
+msgstr ""
+
+#: admin.py:38
+msgid "Insured"
+msgstr ""
+
+#: admin.py:39
+msgid "Not insured"
+msgstr ""
+
+#: admin.py:66
+msgid "Asset movement history"
+msgstr ""
+
+#: admin.py:66
+msgid "Asset movements history"
+msgstr ""
+
+#: admin.py:69
+#, python-format
+msgid "<a href=\"%s\">Print term</a>"
+msgstr ""
+
+#: admin.py:71
+msgid "Print term"
+msgstr ""
+
+#: admin.py:84
+msgid "Add new transfer registry"
+msgstr ""
+
+#: admin.py:84
+msgid "Add new transfer registries"
+msgstr ""
+
+#: admin.py:89
+msgid "Add new writedown registry"
+msgstr ""
+
+#: admin.py:89
+msgid "Add new writedown registries"
+msgstr ""
+
+#: admin.py:94
+msgid "Add new depreciation registry"
+msgstr ""
+
+#: admin.py:94
+msgid "Add new depreciation registries"
+msgstr ""
+
+#: admin.py:99
+msgid "Add new change registry"
+msgstr ""
+
+#: admin.py:99
+msgid "Add new change registries"
+msgstr ""
+
+#: admin.py:146 admin.py:173 reports.py:38
+msgid "Asset code"
+msgstr ""
+
+#: admin.py:178
+msgid "Insured asset"
+msgstr ""
+
+#: admin.py:183
+msgid "Actual asset place"
+msgstr ""
+
+#: charts.py:48
+#, python-format
+msgid "From %(start_year)s-%(start_month)s to %(end_year)s-%(end_month)s"
+msgstr ""
+
+#: models.py:35
+msgid "Transfer term"
+msgstr ""
+
+#: models.py:36
+msgid "Writedown term"
+msgstr ""
+
+#: models.py:37
+msgid "Change term"
+msgstr ""
+
+#: models.py:38
+msgid "Depreciation term"
+msgstr ""
+
+#. Translators: These terms are used in macrosubstitution in Term Model redaction. DO NOT translate the {{ }} enclosed keys!!!!
+#: models.py:40
+msgid ""
+"<strong>The folowing terms can be used for macrosubstitution in term text "
+"body:</strong><br/>\n"
+"<ul>\n"
+"    <li>{{ asset_code }} : The asset account code</li>\n"
+"    <li>{{ asset_type }} : The asset catalog type</li>\n"
+"    <li>{{ asset_description }} : The asset description</li>\n"
+"    <li>{{ registry_date }} : The date of movement registry</li>\n"
+"    <li>{{ registry_annotation }} : The movement registry additional "
+"annotations</li>\n"
+"    <li>{{ transfer_from_unit }} : Organizational Unit transfer origin - for "
+"transfer registries only</li>\n"
+"    <li>{{ transfer_to_unit }} : Organizational Unit transfer target - for "
+"transfer registries only</li>\n"
+"    <li>{{ transfer_from_chief }} : The Organizational Unit transferor chief "
+"name - for transfer registries only</li>\n"
+"    <li>{{ transfer_to_chief }} : The Organizational Unit receiver chief "
+"name - for transfer registries only</li>\n"
+"    <li>{{ writedown_cause }} : The cause of writedown asset - for writedown "
+"registries only</li>\n"
+"    <li>{{ asset_old_value }} : The old asset value - for depreciation/"
+"change registries only</li>\n"
+"    <li>{{ asset_old_description }} : The old asset description - for change "
+"registries only</li>\n"
+"    <li>{{ depreciation_value }} : The value of depreciation - for "
+"depreciation registries only</li>\n"
+"    <li>{{ asset_new_value }} : The new asset value - for depreciation/"
+"change registries only</li>\n"
+"    <li>{{ asset_new_description }} : The new asset description - for change "
+"registries only</li>\n"
+"</ul>"
+msgstr ""
+
+#: models.py:58
+msgid "Model type"
+msgstr ""
+
+#: models.py:59
+msgid "Model name"
+msgstr ""
+
+#: models.py:60
+msgid "Is active?"
+msgstr ""
+
+#: models.py:61
+msgid "Text term"
+msgstr ""
+
+#: models.py:65 models.py:189 models.py:226 models.py:241 models.py:260
+msgid "Term model"
+msgstr ""
+
+#: models.py:65
+msgid "Term models"
+msgstr ""
+
+#: models.py:71
+msgid "Sign"
+msgstr ""
+
+#: models.py:72 models.py:84 models.py:113 models.py:313 reports.py:39
+msgid "Description"
+msgstr ""
+
+#: models.py:76 models.py:83 templates/spat/composition_sheet_snippet.html:4
+msgid "Asset class"
+msgstr ""
+
+#: models.py:76
+msgid "Asset classes"
+msgstr ""
+
+#: models.py:82
+msgid "Item code"
+msgstr ""
+
+#: models.py:85
+msgid "Tecnical features"
+msgstr ""
+
+#: models.py:89
+msgid "Asset catalog"
+msgstr ""
+
+#: models.py:89
+msgid "Assets catalog"
+msgstr ""
+
+#: models.py:96
+msgid "Contract"
+msgstr ""
+
+#: models.py:97
+msgid "Expropriation"
+msgstr ""
+
+#: models.py:98
+msgid "Prescription"
+msgstr ""
+
+#: models.py:99
+msgid "Confiscation"
+msgstr ""
+
+#: models.py:100
+msgid "Accession"
+msgstr ""
+
+#: models.py:101
+msgid "acquisition causa mortis"
+msgstr ""
+
+#: models.py:102
+msgid "Public sale"
+msgstr ""
+
+#: models.py:103
+msgid "Adjudication"
+msgstr ""
+
+#: models.py:104
+msgid "allotment"
+msgstr ""
+
+#: models.py:105
+msgid "Reversion"
+msgstr ""
+
+#: models.py:106
+msgid "Abandonment"
+msgstr ""
+
+#: models.py:108
+msgid "In use"
+msgstr ""
+
+#: models.py:109
+msgid "Write down"
+msgstr ""
+
+#: models.py:111
+msgid "Asset record code"
+msgstr ""
+
+#: models.py:112
+msgid "Asset type"
+msgstr ""
+
+#: models.py:114
+msgid "Actual place"
+msgstr ""
+
+#: models.py:115
+msgid "Classification code"
+msgstr ""
+
+#: models.py:116
+msgid "Acquisition type"
+msgstr ""
+
+#: models.py:117
+msgid "Acquisition document type"
+msgstr ""
+
+#: models.py:118
+msgid "Acquisition document number"
+msgstr ""
+
+#: models.py:119
+msgid "Supplier"
+msgstr ""
+
+#: models.py:120
+msgid "Acquisition date"
+msgstr ""
+
+#: models.py:121
+msgid "Acquisition value"
+msgstr ""
+
+#: models.py:122 models.py:314
+msgid "Actual value"
+msgstr ""
+
+#: models.py:123
+msgid "Actual state"
+msgstr ""
+
+#: models.py:127 models.py:133 models.py:151 models.py:328
+msgid "Asset"
+msgstr ""
+
+#: models.py:127
+msgid "Assets"
+msgstr ""
+
+#: models.py:130
+#, python-format
+msgid "%(asset_code)s in %(actual_place)s"
+msgstr ""
+
+#: models.py:134
+msgid "Movement date"
+msgstr ""
+
+#: models.py:145
+msgid "Asset movement"
+msgstr ""
+
+#: models.py:145
+msgid "Asset movements"
+msgstr ""
+
+#: models.py:148
+#, python-format
+msgid "Movement id: %s"
+msgstr ""
+
+#: models.py:152
+msgid "Registry date"
+msgstr ""
+
+#: models.py:153 models.py:334
+msgid "Additional annotation"
+msgstr ""
+
+#: models.py:190
+msgid "From unit"
+msgstr ""
+
+#: models.py:191
+msgid "From chief"
+msgstr ""
+
+#: models.py:192
+msgid "To unit"
+msgstr ""
+
+#: models.py:193
+msgid "To chief"
+msgstr ""
+
+#: models.py:196
+msgid "Asset transfer registry"
+msgstr ""
+
+#: models.py:196
+msgid "Asset transfer registries"
+msgstr ""
+
+#: models.py:199
+#, python-format
+msgid ""
+"Asset %(asset)s transfered from %(from_unit)s to %(to_unit)s at "
+"%(transfer_date)s."
+msgstr ""
+
+#: models.py:214
+msgid "Disposal"
+msgstr ""
+
+#: models.py:215
+msgid "Donation"
+msgstr ""
+
+#: models.py:216
+msgid "Exchange"
+msgstr ""
+
+#: models.py:217
+msgid "Dation in payment"
+msgstr ""
+
+#: models.py:218
+msgid "Domain concession"
+msgstr ""
+
+#: models.py:219
+msgid "Legitimizing possession"
+msgstr ""
+
+#: models.py:220
+msgid "Investiture"
+msgstr ""
+
+#: models.py:221
+msgid "Incorporation or inversion"
+msgstr ""
+
+#: models.py:222
+msgid "Retrocession"
+msgstr ""
+
+#: models.py:223
+msgid "theft"
+msgstr ""
+
+#: models.py:224
+msgid "disuse"
+msgstr ""
+
+#: models.py:225
+msgid "Other"
+msgstr ""
+
+#: models.py:227 reports.py:162
+msgid "Writedown cause"
+msgstr ""
+
+#: models.py:230
+msgid "Asset writedown registry"
+msgstr ""
+
+#: models.py:230
+msgid "Asset writedown registries"
+msgstr ""
+
+#: models.py:233
+#, python-format
+msgid "Asset %(asset)s writed down in %(down_date)s. by %(down_cause)s"
+msgstr ""
+
+#: models.py:242 models.py:261
+msgid "Old value"
+msgstr ""
+
+#: models.py:243
+msgid "Depreciation value"
+msgstr ""
+
+#: models.py:244 models.py:263
+msgid "New value"
+msgstr ""
+
+#: models.py:247
+#, python-format
+msgid ""
+"Asset %(asset)s depreciated down in %(depreciation_date)s. by U$ "
+"%(depreciation_value)s"
+msgstr ""
+
+#: models.py:262
+msgid "Old description"
+msgstr ""
+
+#: models.py:264
+msgid "New description"
+msgstr ""
+
+#: models.py:267
+#, python-format
+msgid ""
+"Asset %(asset)s changed in %(change_date)s. from '%(old_description)s' and 'U"
+"$ %(old_value)s' to '%(new_description)s and 'U$ %(new_value)s'"
+msgstr ""
+
+#: models.py:281
+msgid "Year/month"
+msgstr ""
+
+#: models.py:283
+msgid "Generation date"
+msgstr ""
+
+#: models.py:284
+msgid "Total value"
+msgstr ""
+
+#: models.py:288
+msgid "Monthly inventory"
+msgstr ""
+
+#: models.py:288
+msgid "Monthly inventories"
+msgstr ""
+
+#: models.py:291
+#, python-format
+msgid ""
+"Inventory for %(year_month)s generated at %(generation_date)s: U$ "
+"%(total_value)s"
+msgstr ""
+
+#: models.py:319
+msgid "Monthly inventory detail"
+msgstr ""
+
+#: models.py:319
+msgid "Monthly inventory details"
+msgstr ""
+
+#: models.py:322
+#, python-format
+msgid ""
+"Asset %(asset_code)s guarded by %(unit)s in %(year_month)s with value U$ "
+"%(asset_value)s"
+msgstr ""
+
+#: models.py:327
+msgid "Policy identifier"
+msgstr ""
+
+#: models.py:329
+msgid "Validity start date"
+msgstr ""
+
+#: models.py:330
+msgid "Expiration date"
+msgstr ""
+
+#: models.py:331
+msgid "Insurance premium"
+msgstr ""
+
+#: models.py:332
+msgid "Amount insured"
+msgstr ""
+
+#: models.py:333
+msgid "Deductible credits"
+msgstr ""
+
+#: models.py:338
+msgid "Insurance policy"
+msgstr ""
+
+#: models.py:341
+#, python-format
+msgid "Policy %(policy_id)s for asset %(asset_code)s."
+msgstr ""
+
+#: reports.py:35
+msgid "Asset inventory report"
+msgstr ""
+
+#: reports.py:37
+msgid "Unit"
+msgstr ""
+
+#: reports.py:40
+msgid "Value"
+msgstr ""
+
+#: reports.py:44
+#, python-format
+msgid "Total for Organizational Unit %(value)s: %(key)s"
+msgstr ""
+
+#: reports.py:50
+msgid "Year month"
+msgstr ""
+
+#: reports.py:51
+msgid ""
+"Format: yyyymm where yyyy is the four digits year and mm is the two-digits "
+"month"
+msgstr ""
+
+#: reports.py:52
+msgid "Report mode"
+msgstr ""
+
+#: reports.py:54 reports.py:92
+msgid "All units"
+msgstr ""
+
+#: reports.py:55 reports.py:93
+msgid "Organizational unit"
+msgstr ""
+
+#: reports.py:87
+msgid "Sheet evolution report"
+msgstr ""
+
+#: reports.py:90
+msgid "Start year/month"
+msgstr ""
+
+#: reports.py:91
+msgid "End year/month"
+msgstr ""
+
+#: reports.py:148
+#, python-format
+msgid "%(year)s-%(month)s"
+msgstr ""
+
+#: reports.py:157
+msgid "Asset writed down by cause report"
+msgstr ""
+
+#: reports.py:160 reports.py:174
+msgid "Start date"
+msgstr ""
+
+#: reports.py:161 reports.py:175
+msgid "End date"
+msgstr ""
+
+#: reports.py:163
+msgid "Any cause"
+msgstr ""
+
+#: reports.py:167
+msgid "Movements by period report"
+msgstr ""
+
+#: reports.py:170
+msgid "Transfer registry"
+msgstr ""
+
+#: reports.py:171
+msgid "Depreciation registry"
+msgstr ""
+
+#: reports.py:172
+msgid "Change registry"
+msgstr ""
+
+#: reports.py:173
+msgid "Movement type"
+msgstr ""
+
+#: templates/spat/composition_sheet_snippet.html:4
+msgid "Assets total value"
+msgstr ""
+
+#: templates/spat/composition_sheet_snippet.html:4
+msgid "Total insured value"
+msgstr ""
+
+#: templates/spat/composition_sheet_snippet.html:13
+msgid "Totals"
+msgstr ""
+
+#: templates/spat/dashboard.html:4
+msgid "Composition sheet"
+msgstr ""
+
+#: templates/spat/dashboard.html:9
+msgid "Sheet evolution"
+msgstr ""
+
+#: Additional strings - not collected by makemessages
+msgid "Tables"
+msgstr ""
+
+msgid "Asset catalogs"
+msgstr ""
+
+msgid "Inventory report"
+msgstr ""
+
+msgid "Writedown by cause"
+msgstr ""
+
+msgid "Movements by period"
+msgstr ""
+
+msgid "Views & reports"
+msgstr ""
+
+msgid "Unit Name"
+msgstr ""
+

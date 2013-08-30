@@ -1,0 +1,14 @@
+{% extends "report/pdf/base_pdf.html" %}
+{% load i18n admin_static admin_list %}
+
+{% block page_header %}{% endblock %}
+
+{% block page_title %}
+	<h2>{{ term.get_term_type_display|title }}</h2>
+{% endblock %}
+
+{% block content %}
+  {{ term_text }}
+{% endblock %}
+
+{% block footer %}{% endblock %}
