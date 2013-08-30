@@ -1,0 +1,9 @@
+{% extends "admin/base_site.html" %} 
+{% load i18n %}
+
+{% block content_title %}
+<h2>{% trans "Server Error (500)" %}</h2>
+{% endblock %}
+{% block content %}
+<p>{% trans "An unexpected server error occured" %}</p>
+{% endblock %}

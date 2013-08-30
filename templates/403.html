@@ -1,0 +1,9 @@
+{% extends "admin/base_site.html" %} 
+{% load i18n %}
+
+{% block content_title %}
+<h2>{% trans "Forbidden." %}</h2>
+{% endblock %}
+{% block content %}
+<p>{% trans "You don't have permission to access this resource" %}</p>
+{% endblock %}

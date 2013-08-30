@@ -19,7 +19,7 @@
 	{% endblock %}
 {% endif %}
 
-{% block content_subtitle %}
+{% block content_title %}
 {% for app in app_list %} {# Has only one app, but in a list #}
 	<a href="{{ app.app_url }}">
 		<img src="{% static "images/appicon/" %}{{ app.name|lower }}.png" class="app-icon"/>
@@ -27,6 +27,7 @@
 	<h2>{% trans app.name %} - {% trans app.name|app_title|safe %}</h2>
 	<p>{% trans app.name|app_brief|safe %}</p>
 {% endfor %}
+<br class="clear"/>
 {% endblock %}
 
 {% block content %}

@@ -1,0 +1,9 @@
+{% extends "admin/base_site.html" %} 
+{% load i18n %}
+
+{% block content_title %}
+<h2>{% trans "Page not found." %}</h2>
+{% endblock %}
+{% block content %}
+<p>{% blocktrans with request_path=request_path %}The requested URL {{ request_path }} was not found on this server.{% endblocktrans %}</p>
+{% endblock %}
