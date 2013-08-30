@@ -1,6 +1,6 @@
 #! /bin/bash
 
-APPS=( "saal" "smat" )
+APPS=( "saal" "smat" "spat" )
 
 IGNORE_LIST=""
 for APP in "${APPS[@]}"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-08-29 15:13-0300\n"
+"POT-Creation-Date: 2013-08-29 15:24-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,7 +16,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: __init__.py:25
 msgid ""
@@ -29,356 +28,346 @@ msgid ""
 "    <li>Supplier base table</li>\n"
 "</ul>\n"
 msgstr ""
-"\n"
-"<h3>SAAL - Sistema básico</h3>\n"
-"<p>Tabelas básicas para o sistema SAAL.</p>\n"
-"<ul>\n"
-"    <li>Organização Política (estados & cidades)</li> \n"
-"    <li>Estrutura Organizacional</li>\n"
-"    <li>Tabela básica de fornecedores</li>\n"
-"</ul>\n"
 
 #: __init__.py:35
 msgid "SAAL base System"
-msgstr "SAAL - Sistema básico"
+msgstr ""
 
 #: __init__.py:36
 msgid "Base tables for system SAAL."
-msgstr "Tabelas básicas para o sistema SAAL."
+msgstr ""
 
 #: __init__.py:37
 msgid "Political organization (states & cities)"
-msgstr "Organização Política (estados & cidades)"
+msgstr ""
 
 #: __init__.py:38
 msgid "Organizational structure"
-msgstr "Estrutura Organizacional"
+msgstr ""
 
 #: __init__.py:39
 msgid "Supplier base table"
-msgstr "Tabela básica de fornecedores"
+msgstr ""
 
 #: admin.py:36 admin.py:46 admin.py:61
 msgid "Basic info"
-msgstr "Informação básica"
+msgstr ""
 
 #: admin.py:37
 msgid "Complementary info"
-msgstr "Informação complementar"
+msgstr ""
 
 #: admin.py:38
 msgid "Geographic coordinates"
-msgstr "Coordenadas geográficas"
+msgstr ""
 
 #: admin.py:47
 msgid "Address"
-msgstr "Endereço"
+msgstr ""
 
 #: admin.py:48
 msgid "Contact"
-msgstr "Contato"
+msgstr ""
 
 #: admin.py:62
 msgid "Address information"
-msgstr "Informação de endereço"
+msgstr ""
 
 #: models.py:32 models.py:58
 msgid "IBGE code"
-msgstr "Código IBGE"
+msgstr ""
 
 #: models.py:35
 msgid "State code by IBGE - Brazilian Geographic & Statistical Intitute"
 msgstr ""
-"Código de Estado pelo IBGE - Instituto Brasileiro de Geografia e Estatística"
 
 #: models.py:37
 msgid "State name"
-msgstr "Nome do Estado"
+msgstr ""
 
 #: models.py:39 models.py:111 models.py:175
 msgid "Sign"
-msgstr "Sigla"
+msgstr ""
 
 #: models.py:42
 msgid "Example: <em>MG</em>."
-msgstr "Exemplo: <em>MG</em>"
+msgstr ""
 
 #: models.py:44
 msgid "population"
-msgstr "população"
+msgstr ""
 
 #: models.py:48
 msgid "Federative Unit"
-msgstr "Unidade da Federação"
+msgstr ""
 
 #: models.py:49
 msgid "Federative Units"
-msgstr "Unidades da Federação"
+msgstr ""
 
 #: models.py:61
 msgid "City code by IBGE - Brazilian Geographic & Statistical Institute"
 msgstr ""
-"Código do município pelo IBGE - Instituto Brasileiro de Geografia e "
-"Estatística"
 
 #: models.py:66
 msgid "TSE code"
-msgstr "Código TSE"
+msgstr ""
 
 #: models.py:69
 msgid "City Code by TSE - Superior Electoral Court"
-msgstr "Código do município pelo TSE - Superior Tribunal Eleitoral"
+msgstr ""
 
 #: models.py:71
 msgid "City name"
-msgstr "Nome do município"
+msgstr ""
 
 #: models.py:72
 msgid "State"
-msgstr "Estado"
+msgstr ""
 
 #: models.py:73
 msgid "Capital"
-msgstr "Capital"
+msgstr ""
 
 #: models.py:74
 msgid "Population"
-msgstr "População"
+msgstr ""
 
 #: models.py:75
 msgid "Hub"
-msgstr "Pólo"
+msgstr ""
 
 #: models.py:76
 msgid "City creation date"
-msgstr "Data de criação do município"
+msgstr ""
 
 #: models.py:79
 msgid "Latitude"
-msgstr "Latitude"
+msgstr ""
 
 #: models.py:84
 msgid "Example: <em>-20.464</em>."
-msgstr "Exemplo: <em>-20.464</em>."
+msgstr ""
 
 #: models.py:86
 msgid "Longitude"
-msgstr "Longitude"
+msgstr ""
 
 #: models.py:91
 msgid "Example: <em>-45.426</em>."
-msgstr "Exemplo: <em>-45.426</em>."
+msgstr ""
 
 #: models.py:96 models.py:141 models.py:205
 msgid "City"
-msgstr "Município"
+msgstr ""
 
 #: models.py:97
 msgid "Cities"
-msgstr "Municípios"
+msgstr ""
 
 #: models.py:112 models.py:124 models.py:174 models.py:227
 msgid "Name"
-msgstr "Nome"
+msgstr ""
 
 #: models.py:115
 msgid "Legislative house type"
-msgstr "Tipo de Casa Legislativa"
+msgstr ""
 
 #: models.py:116
 msgid "Legislative house types"
-msgstr "Tipos de Casa Legislativa"
+msgstr ""
 
 #: models.py:126
 msgid "Example: <em>City Council of Springfield</em>."
-msgstr "Exemplo: <em>Câmara Municipal de São João</em>."
+msgstr ""
 
 #: models.py:129
 msgid "Type"
-msgstr "Tipo"
+msgstr ""
 
 #: models.py:130
 msgid "CNPJ"
-msgstr "CNPJ"
+msgstr ""
 
 #: models.py:131
 msgid "Registration of Legal Entities"
-msgstr "Registro nos órgãos oficiais"
+msgstr ""
 
 #: models.py:132
 msgid "observations"
-msgstr "observações"
+msgstr ""
 
 #: models.py:133
 msgid "Quantity of parliamentarians"
-msgstr "Quantidade de parlamentares"
+msgstr ""
 
 #: models.py:136 models.py:200
 msgid "Street"
-msgstr "Logradouro"
+msgstr ""
 
 #: models.py:138 models.py:202
 msgid "Avenue, street, lane, alley, square..."
-msgstr "Avenida, rua, alameda, travessa, beco, praça..."
+msgstr ""
 
 #: models.py:140 models.py:204
 msgid "Neighborhood"
-msgstr "Bairro"
+msgstr ""
 
 #: models.py:142 models.py:206
 msgid "Zip code"
-msgstr "CEP"
+msgstr ""
 
 #: models.py:143 models.py:176 models.py:207 models.py:231
 msgid "Phone number"
-msgstr "Número do telefone"
+msgstr ""
 
 #: models.py:144 models.py:177 models.py:208
 msgid "Fax number"
-msgstr "Número do FAX"
+msgstr ""
 
 #: models.py:145 models.py:209 models.py:233
 msgid "E-mail"
-msgstr "E-mail"
+msgstr ""
 
 #: models.py:146 models.py:210
 msgid "Web page"
-msgstr "Página web"
+msgstr ""
 
 #: models.py:147 models.py:211
 msgid "Example: <em>http://www.camarapains.mg.gov.br</em>."
-msgstr "Exemplo: <em>http://www.camarapains.mg.leg.br</em>."
+msgstr ""
 
 #: models.py:151
 msgid "Install date"
-msgstr "Data de instalação"
+msgstr ""
 
 #: models.py:156 models.py:172 models.py:237
 msgid "Legislative house"
-msgstr "Casa Legislativa"
+msgstr ""
 
 #: models.py:157
 msgid "Legislative houses"
-msgstr "Casas Legislativas"
+msgstr ""
 
 #: models.py:173
 msgid "Account code"
-msgstr "Código contábil"
+msgstr ""
 
 #: models.py:178
 msgid "e-mail"
-msgstr "e-mail"
+msgstr ""
 
 #: models.py:179
 msgid "Chief"
-msgstr "Chefe"
+msgstr ""
 
 #: models.py:180
 msgid "Parent Organizational Unit"
-msgstr "Unidade Organizacional superior"
+msgstr ""
 
 #: models.py:186 models.py:238
 msgid "Organizational unit"
-msgstr "Unidade organizacional"
+msgstr ""
 
 #: models.py:187
 msgid "Organizational units"
-msgstr "Unidades organizacionais"
+msgstr ""
 
 #: models.py:193
 msgid "Corporate name"
-msgstr "Razão Social"
+msgstr ""
 
 #: models.py:194
 msgid "Invented name"
-msgstr "Nome de Fantasia"
+msgstr ""
 
 #: models.py:195
 msgid "CPF or CNPJ"
-msgstr "CPF ou CNPJ"
+msgstr ""
 
 #: models.py:196
 msgid "State registry"
-msgstr "Inscrição Estadual"
+msgstr ""
 
 #: models.py:197
 msgid "Municipal registry"
-msgstr "Inscrição Municipal"
+msgstr ""
 
 #: models.py:216
 msgid "Supplier"
-msgstr "Fornecedor"
+msgstr ""
 
 #: models.py:217
 msgid "Suppliers"
-msgstr "Fornecedores"
+msgstr ""
 
 #: models.py:228
 msgid "Disabled"
-msgstr "Inativo"
+msgstr ""
 
 #: models.py:232
 msgid "Cellular phone number"
-msgstr "Número do telefone celular"
+msgstr ""
 
 #: models.py:236
 msgid "Employee registration"
-msgstr "Matrícula do Servidor"
+msgstr ""
 
 #: models.py:239
 msgid "Job function"
-msgstr "Função ocupacional"
+msgstr ""
 
 #: models.py:242
 msgid "System user login"
-msgstr "Usuário no sistema"
+msgstr ""
 
 #: models.py:246
 msgid "Employee"
-msgstr "Servidor"
+msgstr ""
 
 #: models.py:247
 msgid "Employees"
-msgstr "Servidores"
+msgstr ""
 
 #: reports.py:202
 msgid "Report improperly configured. no list_fields property."
-msgstr "Relatório mal configurado. Falta a propriedade list_fields"
+msgstr ""
 
 #: reports.py:205
 msgid "Report improperly configured. list_fields must be a list or tuple."
-msgstr "Relatório mal configurado. list_fields deve ser uma lista ou tupla"
+msgstr ""
 
 #: reports.py:213
 #, python-format
 msgid "Report improperly configured. list_fields %s has no name element."
-msgstr "Relatório mal configurado. list_fields %s não possui elemento nome"
+msgstr ""
 
 #: reports.py:221
 #, python-format
 msgid "Report improperly configured. list_fields %s not recognized."
-msgstr "Relatório mal configurado. list_fields %s não reconhecido."
+msgstr ""
 
 #: reports.py:262
 #, python-format
 msgid "List of %s"
-msgstr "Lista de %s"
+msgstr ""
 
 #: reports.py:264
 msgid "Tabular list"
-msgstr "Lista tabular"
+msgstr ""
 
 #: reports.py:427 reports.py:466
 msgid "End of"
-msgstr "Fim de"
+msgstr ""
 
 #: templatetags/saal_filters.py:33 templatetags/saal_filters.py:35
 msgid "<h3>Click the title above to access application options</h3>"
-msgstr "<h3>Clique no título acima para acessar opções da aplicação</h3>"
+msgstr ""
 
 #: Additional strings - not collected by makemessages
 msgid "Location tables"
-msgstr "Tabelas de localidades"
+msgstr ""
 
 msgid "Base tables"
-msgstr "Tabelas básicas"
+msgstr ""
+

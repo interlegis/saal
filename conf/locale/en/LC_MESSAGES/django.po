@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-08-29 15:13-0300\n"
+"POT-Creation-Date: 2013-08-29 15:24-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,112 +19,112 @@ msgstr ""
 
 #: templates/403.html:5
 msgid "Forbidden."
-msgstr "Acesso negado."
+msgstr ""
 
 #: templates/403.html:8
 msgid "You don't have permission to access this resource"
-msgstr "Você não tem permissão para editar nada"
+msgstr ""
 
 #: templates/404.html:5
 msgid "Page not found."
-msgstr "Página não encontrada"
+msgstr ""
 
 #: templates/404.html:8
 #, python-format
 msgid "The requested URL %(request_path)s was not found on this server."
-msgstr "A URL %(request_path)s solicitada não foi encontrada neste servidor."
+msgstr ""
 
 #: templates/500.html:5
 msgid "Server Error (500)"
-msgstr "Erro de servidor (500)"
+msgstr ""
 
 #: templates/500.html:8
 msgid "An unexpected server error occured"
-msgstr "Um erro inesperado no servidor ocorreu"
+msgstr ""
 
 #: templates/admin/app_index.html:13 templates/report/html/tabular_list.html:8
 msgid "Home"
-msgstr "Início"
+msgstr ""
 
 #: templates/admin/app_index.html:16 templates/admin/app_index_snippet.html:8
 #, python-format
 msgid "%(name)s"
-msgstr "%(name)s"
+msgstr ""
 
 #: templates/admin/app_index_snippet.html:7
 #, python-format
 msgid "Models in the %(name)s application"
-msgstr "Modelos na aplicação %(name)s"
+msgstr ""
 
 #: templates/admin/app_index_snippet.html:20
 msgid "Add"
-msgstr "Adicionar"
+msgstr ""
 
 #: templates/admin/app_index_snippet.html:26
 msgid "Change"
-msgstr "Alterar"
+msgstr ""
 
 #: templates/admin/base_site.html:9 templates/report/pdf/base_pdf.html:40
 msgid "SAAL - Legislative Administration Support System"
-msgstr "SAAL - Sistema de Apoio à Administração Legislativa"
+msgstr ""
 
 #: templates/admin/base_site.html:12
 msgid "SAAL"
-msgstr "SAAL"
+msgstr ""
 
 #: templates/admin/base_site.html:15
 msgid "Legislative Administration Support System"
-msgstr "Sistema de Apoio à Administração Legislativa"
+msgstr ""
 
 #: templates/admin/index.html:37
 msgid "Enter"
-msgstr "Entrar"
+msgstr ""
 
 #: templates/admin/index.html:41
 msgid "You don't have permission to edit anything."
-msgstr "Você não tem permissão para editar nada"
+msgstr ""
 
 #: templates/admin/index.html:49
 msgid "Recent Actions"
-msgstr "Atividades recentes"
+msgstr ""
 
 #: templates/admin/index.html:50
 msgid "My Actions"
-msgstr "Minhas atividades"
+msgstr ""
 
 #: templates/admin/index.html:54
 msgid "None available"
-msgstr "Nada disponível"
+msgstr ""
 
 #: templates/admin/index.html:68
 msgid "Unknown content"
-msgstr "Conteúdo desconhecido"
+msgstr ""
 
 #: templates/report/html/change_list_report.html:12
 #, python-format
 msgid "Add %(name)s"
-msgstr "Adicionar %(name)s"
+msgstr ""
 
 #: templates/report/html/change_list_report.html:17
 msgid "Print to PDF"
-msgstr "Imprimir para PDF"
+msgstr ""
 
 #: templates/report/html/tabular_list.html:19
 msgid "Submit"
-msgstr "Enviar"
+msgstr ""
 
 #: templates/report/html/tabular_list.html:33
 msgid "No data to show"
-msgstr "Nenhum dado para mostrar"
+msgstr ""
 
 #: templates/report/html/tabular_list.html:41
 #: templates/report/html/tabular_list.html:43
 msgid "View as PDF"
-msgstr "Ver como PDF"
+msgstr ""
 
 #: templates/report/pdf/base_pdf.html:59
 msgid "Page"
-msgstr "Página"
+msgstr ""
 
 #: Additional strings - not collected by makemessages
 msgid "Auth"

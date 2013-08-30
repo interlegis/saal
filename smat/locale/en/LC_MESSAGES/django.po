@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-08-29 15:13-0300\n"
+"POT-Creation-Date: 2013-08-29 15:24-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,7 +16,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: __init__.py:25
 msgid ""
@@ -33,329 +32,316 @@ msgid ""
 "    <li>Inventories and statistical reports</li>\n"
 "</ul>\n"
 msgstr ""
-"\n"
-"<h3>Sistema de Materiais</h3>\n"
-"<p>Controla o estoque, as compras e o uso de materiais na Casa Legislativa.</"
-"p>\n"
-"<ul>\n"
-"    <li>Manutenção de tabelas</li>\n"
-"    <li>Requisição de materiais</li>\n"
-"    <li>Atendimento de requisições</li>\n"
-"    <li>Aquisição de materiais</li>\n"
-"    <li>Relatórios de estoque</li>\n"
-"    <li>Inventários e relatórios estatísticos</li>\n"
-"</ul>\n"
 
 #: __init__.py:38
 msgid "Material System"
-msgstr "Sistema de Materiais"
+msgstr ""
 
 #: __init__.py:39
 msgid ""
 "Controls the stock, purchasing and use of materials in Legislative house."
 msgstr ""
-"Controla o estoque, a aquisição e o uso de materiais na Casa Legislativa."
 
 #: __init__.py:40
 msgid "Table maintenance"
-msgstr "Manutenção de tabelas"
+msgstr ""
 
 #: __init__.py:41
 msgid "Material requests"
-msgstr "Requisição de materiais"
+msgstr ""
 
 #: __init__.py:42
 msgid "Comply material requests"
-msgstr "Atendimento de requisições"
+msgstr ""
 
 #: __init__.py:43
 msgid "Acquiring materials"
-msgstr "Aquisição de materiais"
+msgstr ""
 
 #: __init__.py:44
 msgid "Stock reports"
-msgstr "Relatórios de estoque"
+msgstr ""
 
 #: __init__.py:45
 msgid "Inventories and statistical reports"
-msgstr "Inventários e relatórios estatísticos"
+msgstr ""
 
 #: admin.py:43
 msgid "Avaiable stock"
-msgstr "Estoque disponível"
+msgstr ""
 
 #: admin.py:120 models.py:139 models.py:152
 msgid "Request"
-msgstr "Requisição"
+msgstr ""
 
 #: admin.py:122
 msgid "Perform"
-msgstr "Concluído"
+msgstr ""
 
 #: charts.py:55 charts.py:119
 #, python-format
 msgid "From %(startdate)s to %(enddate)s"
-msgstr "De %(startdate)s a %(enddate)s"
+msgstr ""
 
 #: charts.py:79
 msgid "Actual stock"
-msgstr "Estoque atual"
+msgstr ""
 
 #: charts.py:121 templates/smat/dashboard.html:14
 msgid "Purchases"
-msgstr "Compras"
+msgstr ""
 
 #: filters.py:31
 msgid "Stock status"
-msgstr "Stock status"
+msgstr ""
 
 #: filters.py:45
 msgid "Without stock"
-msgstr "Sem estoque"
+msgstr ""
 
 #: filters.py:46
 msgid "Under minimum"
-msgstr "Abaixo do mínimo"
+msgstr ""
 
 #: filters.py:47
 msgid "Above maximum"
-msgstr "Acima do máximo"
+msgstr ""
 
 #: filters.py:48 models.py:53
 msgid "Supply point"
-msgstr "Ponto de suprimento"
+msgstr ""
 
 #: forms.py:40
 msgid "Trying to supply more than requested!"
-msgstr "Tentativa de atender mais que o requisitado!"
+msgstr ""
 
 #: forms.py:43
 msgid "Insufficient stock to supply this item"
-msgstr "Estoque insuficiente para atender este item"
+msgstr ""
 
 #: models.py:34
 msgid "Sign"
-msgstr "Sigla"
+msgstr ""
 
 #: models.py:35 models.py:48 templates/smat/reports/inventory_report.html:9
 msgid "Description"
-msgstr "Descrição"
+msgstr ""
 
 #: models.py:39 models.py:47 reports.py:136
 msgid "Material class"
-msgstr "Classe de material"
+msgstr ""
 
 #: models.py:40
 msgid "Material classes"
-msgstr "Classes de material"
+msgstr ""
 
 #: models.py:46 templates/smat/reports/inventory_report.html:8
 msgid "Item code"
-msgstr "Código do item"
+msgstr ""
 
 #: models.py:49
 msgid "Tecnical features"
-msgstr "Características técnicas"
+msgstr ""
 
 #: models.py:50
 msgid "Measure unit"
-msgstr "Unidade de medida"
+msgstr ""
 
 #: models.py:51
 msgid "Minimum stock"
-msgstr "Estoque mínimo"
+msgstr ""
 
 #: models.py:52
 msgid "Maximun stock"
-msgstr "Estoque máximo"
+msgstr ""
 
 #: models.py:57 models.py:72 models.py:232 models.py:281 reports.py:37
 msgid "Material"
-msgstr "Material"
+msgstr ""
 
 #: models.py:58
 msgid "Materials"
-msgstr "Materiais"
+msgstr ""
 
 #: models.py:73
 msgid "Stock quantity"
-msgstr "Quantidade em estoque"
+msgstr ""
 
 #: models.py:74 models.py:99 models.py:236 models.py:283
 msgid "Unit cost"
-msgstr "Custo unitário"
+msgstr ""
 
 #: models.py:75
 msgid "Creation date"
-msgstr "Data de criação"
+msgstr ""
 
 #: models.py:76
 msgid "Last stock change"
-msgstr "Última mudança de estoque"
+msgstr ""
 
 #: models.py:84 models.py:94
 msgid "Material cluster"
-msgstr "Lote de materiais"
+msgstr ""
 
 #: models.py:85
 msgid "Material clusters"
-msgstr "Lotes de materiais"
+msgstr ""
 
 #: models.py:88
 #, python-format
 msgid "%(quantity)s %(measure_unit)s of %(material)s at cost of %(cost)s"
-msgstr "%(quantity)s %(measure_unit)s de %(material)s ao custo de %(cost)s"
+msgstr ""
 
 #: models.py:92 models.py:265
 msgid "Input"
-msgstr "Entrada"
+msgstr ""
 
 #: models.py:92 models.py:265
 msgid "Output"
-msgstr "Saída"
+msgstr ""
 
 #: models.py:95 models.py:267
 msgid "Type"
-msgstr "Tipo"
+msgstr ""
 
 #: models.py:96
 msgid "Quantity before movement"
-msgstr "Quantidade antes do movimento"
+msgstr ""
 
 #: models.py:97 models.py:282
 msgid "Movemented quantity"
-msgstr "Quantidade movimentada"
+msgstr ""
 
 #: models.py:98
 msgid "Movement date"
-msgstr "Data do movimento"
+msgstr ""
 
 #: models.py:110
 msgid "Material movement registry"
-msgstr "Registro de movimento de material"
+msgstr ""
 
 #: models.py:111
 msgid "Material movements registry"
-msgstr "Registro de movimentos de material"
+msgstr ""
 
 #: models.py:114
 #, python-format
 msgid "%(type)s %(quantity)s units of %(material)s at %(date)s"
-msgstr "%(type)s %(quantity)s unidades de %(material)s em %(date)s"
+msgstr ""
 
 #: models.py:119
 msgid "Pending"
-msgstr "Pendente"
+msgstr ""
 
 #: models.py:120
 msgid "complied"
-msgstr "atendido"
+msgstr ""
 
 #: models.py:122
 msgid "Requestor unit"
-msgstr "Unidade requisitante"
+msgstr ""
 
 #: models.py:123
 msgid "Requestor Employee"
-msgstr "Servidor requisitante"
+msgstr ""
 
 #: models.py:124
 msgid "Request date"
-msgstr "Data de requisição"
+msgstr ""
 
 #: models.py:125
 msgid "Status"
-msgstr "Estado"
+msgstr ""
 
 #: models.py:126
 msgid "Complied date"
-msgstr "Data de atendimento"
+msgstr ""
 
 #: models.py:127
 msgid "Stockman"
-msgstr "Almoxarife"
+msgstr ""
 
 #: models.py:127
 msgid "Stockman that comply this request"
-msgstr "Almoxarife que atendeu esta requisição"
+msgstr ""
 
 #: models.py:140
 msgid "Requests"
-msgstr "Requisições"
+msgstr ""
 
 #: models.py:142
 msgid "Can comply"
-msgstr "Pode atender"
+msgstr ""
 
 #: models.py:153
 msgid "Requested material"
-msgstr "Material requisitado"
+msgstr ""
 
 #: models.py:154
 msgid "Requested quantity"
-msgstr "Quantidade requisitada"
+msgstr ""
 
 #: models.py:155
 msgid "Supply quantity"
-msgstr "Quantidade fornecida"
+msgstr ""
 
 #: models.py:166
 msgid "Request item"
-msgstr "Item de requisição"
+msgstr ""
 
 #: models.py:167
 msgid "Request items"
-msgstr "Itens de requisição"
+msgstr ""
 
 #: models.py:170
 #, python-format
 msgid "%(quantity)s %(measure_unit)s of %(material)s"
-msgstr "%(quantity)s %(measure_unit)s de %(material)s"
+msgstr ""
 
 #: models.py:208
 msgid "Supplier"
-msgstr "Fornecedor"
+msgstr ""
 
 #: models.py:209
 msgid "Invoice number"
-msgstr "Número da Nota Fiscal"
+msgstr ""
 
 #: models.py:210
 msgid "Invoice serie"
-msgstr "Série da Nota Fiscal"
+msgstr ""
 
 #: models.py:211
 msgid "Input date"
-msgstr "Data de entrada"
+msgstr ""
 
 #: models.py:222 models.py:231
 msgid "Purchase invoice"
-msgstr "Nota de compra"
+msgstr ""
 
 #: models.py:223
 msgid "Purchase invoices"
-msgstr "Notas de compra"
+msgstr ""
 
 #: models.py:227
 #, python-format
 msgid "Invoice nr. %(number)s-%(serie)s from %(supplier)s"
-msgstr "Nota Fiscal nº %(number)s-%(serie)s de %(supplier)s"
+msgstr ""
 
 #: models.py:233
 msgid "Created material cluster"
-msgstr "Lote de material criado"
+msgstr ""
 
 #: models.py:235
 msgid "Quantity"
-msgstr "Quantidade"
+msgstr ""
 
 #: models.py:243
 msgid "Purchase item"
-msgstr "Item de compra"
+msgstr ""
 
 #: models.py:244
 msgid "Purchase items"
-msgstr "Itens de compra"
+msgstr ""
 
 #: models.py:247
 #, python-format
@@ -363,36 +349,35 @@ msgid ""
 "%(quantity)s %(measure_unit)s of %(material)s (invoice nr. %(number)s-"
 "%(serie)s:)"
 msgstr ""
-"%(quantity)s %(measure_unit)s de %(material)s (nota nº %(number)s-%(serie)s:)"
 
 #: models.py:266
 msgid "Reversal date"
-msgstr "Data de estorno"
+msgstr ""
 
 #: models.py:268
 msgid "Reason"
-msgstr "Motivo"
+msgstr ""
 
 #: models.py:272 models.py:280
 msgid "Reversal"
-msgstr "Estorno"
+msgstr ""
 
 #: models.py:273
 msgid "Reversals"
-msgstr "Estornos"
+msgstr ""
 
 #: models.py:276
 #, python-format
 msgid "%(type)s reversal nr. %(number)s at %(date)s"
-msgstr "Estorno de %(type)s nº. %(number)s em %(date)s"
+msgstr ""
 
 #: models.py:287
 msgid "Reversal item"
-msgstr "Item de estorno"
+msgstr ""
 
 #: models.py:288
 msgid "Reversal items"
-msgstr "Itens de estorno"
+msgstr ""
 
 #: models.py:291
 #, python-format
@@ -400,142 +385,141 @@ msgid ""
 "%(type)s %(quantity)s %(measure_unit)s of %(material)s by reversal Nr. "
 "%(number)s"
 msgstr ""
-"%(type)s de %(quantity)s %(measure_unit)s de %(material)s pelo estorno nº "
-"%(number)s"
 
 #: models.py:339
 msgid "Undefined reversal type. Try 'E' for input or 'S' for output."
-msgstr "Tipo de estorno indefinido. Tente 'E' para entrada ou 'S' para saída"
+msgstr ""
 
 #: reports.py:32
 msgid "Purchases by period"
-msgstr "Compras por período"
+msgstr ""
 
 #: reports.py:34
 msgid "Purchase data"
-msgstr "Data da compra"
+msgstr ""
 
 #: reports.py:42 reports.py:62 reports.py:107
 #, python-format
 msgid "Sum of total cost: %s"
-msgstr "Soma do custo total: %s"
+msgstr ""
 
 #: reports.py:43 reports.py:108
 #, python-format
 msgid "Total cost for %(key)s: %(value)s"
-msgstr "Custo total para %(key)s: %(value)s"
+msgstr ""
 
 #: reports.py:45 reports.py:64 reports.py:111 reports.py:137
 msgid "Start date"
-msgstr "Data inicial"
+msgstr ""
 
 #: reports.py:46 reports.py:65 reports.py:112 reports.py:138
 msgid "End date"
-msgstr "Data final"
+msgstr ""
 
 #: reports.py:57
 msgid "Total cost by unit"
-msgstr "Custo total por unidade"
+msgstr ""
 
 #: reports.py:59
 msgid "Account code"
-msgstr "Código contábil"
+msgstr ""
 
 #: reports.py:60
 msgid "Account name"
-msgstr "Nome do setor"
+msgstr ""
 
 #: reports.py:61
 msgid "Total cost"
-msgstr "Custo total"
+msgstr ""
 
 #: reports.py:100
 msgid "Requests by unit"
-msgstr "Requisições por unidade"
+msgstr ""
 
 #: reports.py:110
 msgid "All units"
-msgstr "Todas as unidades"
+msgstr ""
 
 #: reports.py:131
 msgid "Inventory report"
-msgstr "Relatório de inventário"
+msgstr ""
 
 #: reports.py:136
 msgid "All classes"
-msgstr "Todas as classes"
+msgstr ""
 
 #: reports.py:163 reports.py:208
 #, python-format
 msgid "Totals for %s"
-msgstr "Totais para %s"
+msgstr ""
 
 #: templates/admin/smat/reversal/change_list.html:12
 #, python-format
 msgid "Add output %(name)s"
-msgstr "Adicionar %(name)s de saída"
+msgstr ""
 
 #: templates/admin/smat/reversal/change_list.html:17
 #, python-format
 msgid "Add input %(name)s"
-msgstr "Adicionar %(name)s de entrada"
+msgstr ""
 
 #: templates/smat/dashboard.html:4
 msgid "Cunsumption by Organizational Units"
-msgstr "Consumo por Unidade Organizacional"
+msgstr ""
 
 #: templates/smat/dashboard.html:9
 msgid "Stock by category"
-msgstr "Estoque por categoria"
+msgstr ""
 
 #: templates/smat/reports/inventory_report.html:10
 msgid "measure Unit"
-msgstr "Unidade de medida"
+msgstr ""
 
 #: templates/smat/reports/inventory_report.html:11
 msgid "Physical stock"
-msgstr "Estoque físico"
+msgstr ""
 
 #: templates/smat/reports/inventory_report.html:12
 msgid "Financial stock"
-msgstr "Estoque financeiro"
+msgstr ""
 
 #: templates/smat/reports/inventory_report.html:15
 #: templates/smat/reports/inventory_report.html:17
 msgid "Stock before"
-msgstr "Estoque inicial"
+msgstr ""
 
 #: templates/smat/reports/inventory_report.html:15
 #: templates/smat/reports/inventory_report.html:17
 msgid "Inputs"
-msgstr "Entradas"
+msgstr ""
 
 #: templates/smat/reports/inventory_report.html:16
 #: templates/smat/reports/inventory_report.html:18
 msgid "Outputs"
-msgstr "Saídas"
+msgstr ""
 
 #: templates/smat/reports/inventory_report.html:16
 #: templates/smat/reports/inventory_report.html:18
 msgid "Stock after"
-msgstr "Estoque final"
+msgstr ""
 
 #: templates/smat/reports/inventory_report.html:44
 #: templates/smat/reports/inventory_report_pdf.html:42
 msgid "Final inventory"
-msgstr "Inventário final"
+msgstr ""
 
 #: templates/smat/reports/inventory_report.html:52
 #: templates/smat/reports/inventory_report_pdf.html:50
 msgid "No data to show"
-msgstr "Nenhum dado a exibir"
+msgstr ""
 
 #: Additional strings - not collected by makemessages
 msgid "Tables"
-msgstr "Tabelas"
+msgstr ""
 
 msgid "Views & reports"
-msgstr "Consultas & relatórios"
+msgstr ""
 
 msgid "Total costs by unit"
-msgstr "Custos totais por unidade"
+msgstr ""
+
