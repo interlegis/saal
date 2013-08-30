@@ -176,6 +176,7 @@ class OrganizationalUnit(models.Model):
     phone = models.CharField(_(u'Phone number'), max_length=32, blank=True)
     fax = models.CharField(_(u'Fax number'), max_length=32, blank=True)
     email = models.EmailField(_(u'e-mail'), max_length=128, blank=True)
+    chief = models.ForeignKey('EmployeeBase', blank=True, null=True, verbose_name=_(u'Chief'))
     parent_ou = models.ForeignKey('self', verbose_name=_(u'Parent Organizational Unit'),
                                   related_name='sub_units', blank=True, null=True)
     

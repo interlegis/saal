@@ -101,6 +101,7 @@ database_dev()
 {
 	try cp -af saal/database_settings_sqlite3.py saal/database_settings.py
 	try python manage.py syncdb
+	try python manage.py migrate --all
 	try python manage.py create_saal_groups
 	try python manage.py loaddata fixtures/dev/*.json
 }
@@ -127,7 +128,13 @@ database_server()
 		exit 1
 	fi
 	try python manage.py syncdb
+	try python manage.py migrate --all
 	try python manage.py create_saal_groups
+}
+
+compile_messages()
+{
+	bash etc/utils/compilemessages.sh pt_BR
 }
 
 
@@ -140,6 +147,7 @@ case "$1" in
 		try source ./env/bin/activate
 		treemenus_install
 		database_dev
+		compile_messages
 		;;
 	server)
 		shift
@@ -198,6 +206,7 @@ case "$1" in
 		treemenus_install
 		database_server $ENGINE $HOST $PORT $DB_NAME $USER_NAME $PASSWORD
 		apache_install $SERVER_NAME
+		compile_messages
 		;;
 	*)
 		usage
