@@ -28,11 +28,18 @@ class Command(BaseCommand):
     def handle(self, *args, **options):
         req_permissions = ['add_request', 'change_request', 'delete_request', 'add_requestitem', 'change_requestitem', 
                            'delete_requestitem', ]
-        alm_permissions = ['add_material', 'change_material', 'delete_material', 'add_materialclass', 'change_materialclass', 
+        alm_permissions = [# smat system
+                           'add_material', 'change_material', 'delete_material', 'add_materialclass', 'change_materialclass', 
                            'delete_materialclass', 'add_purchaseinvoice', 'change_purchaseinvoice', 'delete_purchaseinvoice', 
                            'add_purchaseitem', 'change_purchaseitem', 'delete_purchaseitem', 'can_comply', 'change_requestitem', 
                            'add_reversal', 'change_reversal', 'delete_reversal', 'add_reversalitem', 'change_reversalitem', 
-                           'delete_reversalitem', ]
+                           'delete_reversalitem',
+                           # spat system
+                           'add_termmodel', 'change_termmodel', 'delete_termmodel', 'add_assetclass', 'change_assetclass', 
+                           'delete_assetclass', 'add_assetcatalog', 'change_assetcatalog', 'delete_assetcatalog', 'add_asset',
+                           'change_asset', 'delete_asset', 'change_assetmovement', 'add_transferregistry', 'add_writedownregistry',
+                           'add_depreciationregistry', 'add_changeregistry', 'add_inventory', 'change_inventory',
+                           'delete_inventory', 'add_insurancepolicy', 'change_insurancepolicy', 'delete_insurancepolicy', ]
 
         self.stdout.write('Creating Requisitante group...', ending='')
         requisitante, novo = Group.objects.get_or_create(name='Requisitante')
