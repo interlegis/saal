@@ -50,7 +50,7 @@ apt_install()
 {
 	echo "Some needed packages will be installed with apt-get, in sudo mode."
 	echo "If requested give your SUDOer password"
-	try $1 apt-get install build-essential graphviz graphviz-dev git python-pip python-dev python-cairo
+	try $1 apt-get install build-essential graphviz graphviz-dev git python-pip python-dev python-cairo libxml2-dev libxslt1-dev gettext
 }
 
 apache_install()
