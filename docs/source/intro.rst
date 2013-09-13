@@ -6,6 +6,8 @@ versão 1.5, utilizando recursos da Interface Administrativa, que acelera o
 processo de desenvolvimento e fornece uma interface homogênea,  intuitiva e
 fácil de usar.
 
+.. _intro_admin_user:
+
 Ao instalar o SAAL, foi oferecida a opção de se criar um usuário administrador.
 Este usuário deve ser utilizado para acessar o sistema sempre que for 
 necessário realizar tarefas administrativas, como cadastramento de novos

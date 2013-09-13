@@ -22,7 +22,8 @@ Conteúdo:
 .. toctree::
    :maxdepth: 2
 
-   intro   
+   intro
+   auth
    LICENCA
 
 
