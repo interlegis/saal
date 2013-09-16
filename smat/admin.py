@@ -235,7 +235,7 @@ class ReversalAdmin(admin.ModelAdmin):
 
     def get_inline_instances(self, request, obj):
         #TODO: Verificar tipo quando estiver alterando
-        if request.GET.get('_input', '1') == '0':
+        if request.GET.get('_input', '0') == '0':
             self.inlines = (ReversalOutputItemInline, )
         else:
             self.inlines = (ReversalItemInline, )
@@ -244,7 +244,7 @@ class ReversalAdmin(admin.ModelAdmin):
  
     def add_view(self, request, form_url='', extra_context=None):
         view = super(ReversalAdmin, self).add_view(request, form_url, extra_context)
-        is_input = request.GET.get('_input', '1') == '1'
+        is_input = request.GET.get('_input', '0') == '1'
         if hasattr(view, 'context_data'):
             obj = Reversal(reversal_date=date.today())
             obj.type = 'E' if is_input else 'S'
@@ -261,7 +261,7 @@ class ReversalAdmin(admin.ModelAdmin):
         if change:
             return
         obj.input_date = date.today()
-        obj.type = 'E' if request.GET.get('_input', '1') == '1' else 'S'
+        obj.type = 'E' if request.GET.get('_input', '0') == '1' else 'S'
         super(ReversalAdmin, self).save_model(request, obj, form, change)
         
     def has_delete_permission(self, request, obj=None):
