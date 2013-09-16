@@ -59,7 +59,7 @@ permite visualizar e retornar às partes do sistema já percorridas. Para retorn
 Em seguida vêm o título da aplicação e seu :term:`dashboard`, que dá uma
 visão instantânea do desempenho do sistema.
 
-.. intro_changelist:
+.. _intro_changelist:
 
 Lista de objetos
 ----------------

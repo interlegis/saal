@@ -28,3 +28,11 @@ Glossário
       as opções do menu, economizando espaço na tela. Quando ativado, ele
       mostra uma lista de opções que "cai", onde o usuário pode selecionar uma
       das opções para que o sistema possa interpretar a intenção do mesmo.
+
+   PEPS
+      Sigla para Primeiro que Entra é o Primeiro a Sair, ou, em iglês, *FIFO*
+      *First In First Out*. É um algoritmo de cálculo de custo de estoque onde
+      os materiais, ainda que de um mesmo tipo, são mantidos em lotes separados
+      por data de entrada. Os materiais mais antigos (ou primeiros a entrar)
+      são os primeiros a serem usados. Este algoritmo evita o cálculo de custo
+      médio, que pode gerar falhas de cálculo devido a precisão numérica.

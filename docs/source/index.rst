@@ -24,6 +24,7 @@ Conteúdo:
 
    intro
    auth
+   smat
    LICENCA
 
 
