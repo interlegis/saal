@@ -24,6 +24,7 @@ Conteúdo:
 
    intro
    auth
+   saal
    smat
    LICENCA
 
@@ -34,4 +35,4 @@ Conteúdo:
 
 * :ref:`genindex`
 * :ref:`search`
-* :doc:`glossary`
+* :ref:`glossary`

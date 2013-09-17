@@ -77,7 +77,7 @@ e indisponibilidade de estoque (economicidade e eficiência).
    custo unitário, pois estas informações serão manipuladas pelas
    funcionalidades do sistema, como requisições, compras e estornos. 
    
-.. _request:
+.. _smat_request:
  
 Requisições
 -----------
@@ -116,7 +116,7 @@ Quando o almoxarife salva a requisição, o atendimento é realizado, os saldos
 físicos e financeiros são computados e esta requisição não poderá mais ser
 visitada nem pelo almoxarife nem pelo requisitante.
 
-.. _purchase:
+.. _smat_purchase:
 
 Compras
 -------
@@ -126,12 +126,13 @@ Consumo referenctes às aquisições da Casa Legislativa.
 
 .. image:: _static/img/smat/purchaise_changeform.png
 
-Deve ser informado o :ref:`saal_supplierbase` que forneceu os materiais, o
-número e a séria da Nota Fiscal. A data de entrada é a data corrente.
+Deve ser informado o :ref:`fornecedor <saal_supplierbase>` que forneceu os
+materiais, o número e a série da Nota Fiscal. A data de entrada é a data
+corrente.
 
 Na caixa Itens de Compra devem ser informados os materiais adquiridos, seu
 custo unitário e a quantidade. Note que a quantidade deve ser relativa à unidade
-de medida do :ref:`smat_material` adquirido.
+de medida do :ref:`material <smat_material>` adquirido.
 
 Uma vez salva a Nota de Compra, os saldos disponíveis são recalculados e um novo
 lote de materiais é criado no estoque. As notas já salvas podem ser visualizadas
@@ -159,7 +160,7 @@ Consultas e Relatórios
 
 Dá acesso a quatro relatórios do sistema de materiais:
 
-.. _inventoryreport:
+.. _smat_inventoryreport:
 
 Relatório de inventário
 """""""""""""""""""""""
@@ -190,7 +191,7 @@ O **Estoque Final** será sempre igual ao **Estoque inicial** mais as
 O relatório apresenta quebras totalizadas por classe de material e apresenta
 o total geral ao final do relatório.
 
-.. _requestreport:
+.. _smat_requestreport:
 
 Requisições por unidade
 """""""""""""""""""""""
@@ -204,7 +205,7 @@ além da soma do custo total ao final.
 
 .. image:: _static/img/smat/requestreport.png
 
-.. _totalcostreport:
+.. _smat_totalcostreport:
 
 Custo total por unidade
 """""""""""""""""""""""
@@ -214,7 +215,7 @@ materiais em um período.
 
 .. image:: _static/img/smat/totalcostreport.png
 
-.. purchasereport:
+.. _smat_purchasereport:
 
 Compras por período
 """""""""""""""""""
