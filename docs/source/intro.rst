@@ -78,6 +78,8 @@ Possui também a caixa de filtros, que traz os filtros que podem ser aplicados
 aos objetos. Os filtros podem ser combinados, isso é, podem-se filtrar todos
 os municípios que sejam Pólo regional E que sejam do Estado de Minas Gerais.
 
+.. _intro_search_bar:
+
 A barra de pesquisa possui um campo onde pode ser digitada qualquer expressão
 a ser buscada na lista de objetos. A pesquisa não faz distinção entre letras
 maiúsculas e minúsculas, mas, dependendo do banco de dados utilizado e de sua

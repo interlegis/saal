@@ -45,6 +45,10 @@ Glossário
       recanto, residencial, rodovia, rua, setor, sítio, travessa, trecho, trevo,
       vale, vereda, via, viaduto, viela, vila 
 
+   macrosubstituição
+      Consiste na inserção de determinadas marcações em um texto para que sejam
+      substituídas por valores variáveis em um processo de processamento. 
+      
    menu suspenso
       Um menu suspenso é um elemento de interface com o usuário similar à uma
       lista, que permite que o usuário escolha um valor de uma lista de opções
