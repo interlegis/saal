@@ -98,3 +98,11 @@
 #nav-global p {
 	clear: left;
 }
+
+#help_link {
+	color: #5B80B2 !important; 
+	font-weight: bold;
+	padding: 0 10px;
+	position: absolute;
+	right: 0;
+}

@@ -16,23 +16,34 @@
 {% block content_title %}{% if title %}<h2>{{ title }}</h2>{% endif %}{% endblock %}
  
 {% block nav-global %}
+<div id="nav-global">
 {% if app_label %}
 	{% if app_label|menu_exists %}
-		<div id="nav-global">
 			{% show_menu app_label "unordered-list" %}
-		</div>
 	{% endif %}
+	{# Help link #}
+	{% if cl %} {# this is a changelist #}
+		<a id="help_link" href="/docs/{{ app_label|lower }}.html#{{ app_label|lower }}-{{ cl.opts.module_name }}" target="saal_help">{% trans "Help" %}</a>
+	{% else %} {% if opts %} {# this is a changeform #}
+		<a id="help_link" href="/docs/{{ app_label|lower }}.html#{{ app_label|lower }}-{{ opts.module_name }}" target="saal_help">{% trans "Help" %}</a>
+	{% else %} {% if view.report_name %} {# This is a TabularListView #}
+		<a id="help_link" href="/docs/{{ app_label|lower }}.html#{{ app_label|lower }}-{{ view.report_name|lower }}" target="saal_help">{% trans "Help" %}</a>
+	{% else %} {# This is an unknown #}
+		<a id="help_link" href="/docs/{{ app_label|lower }}.html" target="saal_help">{% trans "Help" %}</a>
+	{% endif %}
+	{% endif %}
+	{% endif %}	
 {% else %}
 	{% for app in app_list %}
 		{% if forloop.first and forloop.last %}
 			{% if app.name|lower|menu_exists %}
-			<div id="nav-global">
 				{% show_menu app.name|lower "unordered-list" %}
-			</div>
 			{% endif %}
+			<a id="help_link" href="/docs/{{ app.name|lower }}.html" target="saal_help">{% trans "Help" %}</a>
 		{% endif %}
 	{% endfor %}
 {% endif %}
+</div>
 {% endblock %}
 
 {% block footer %}

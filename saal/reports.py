@@ -176,6 +176,9 @@ class TabularListView(forms.Form, ListView):
     margin_right = "2cm"
     margin_bottom = "4cm"
     
+    def report_name(self):
+        return self.__class__.__name__
+    
     def get_list_fields(self):
         def get_label(field_name):
             field_label = field_name.replace('__',' ').replace('_',' ').title()
