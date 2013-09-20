@@ -162,6 +162,7 @@ INSTALLED_APPS = (
     'saal',
     'smat',
     'spat',
+    'stes',
 )
 
 # A sample logging configuration. The only tangible logging
